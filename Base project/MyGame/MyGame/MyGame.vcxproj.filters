@@ -16,6 +16,14 @@
     <ClCompile Include="MyGame.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="Laser.cpp" />
+    <ClCompile Include="Meteor.cpp" />
+    <ClCompile Include="MeteorSpawner.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="Score.cpp" />
+    <ClCompile Include="GameOverMessage.cpp" />
+    <ClCompile Include="GameOverScene.cpp" />
+    <ClCompile Include="Background.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\AnimatedSprite.h">
@@ -35,6 +43,14 @@
     </ClInclude>
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="Ship.h" />
+    <ClInclude Include="Laser.h" />
+    <ClInclude Include="Meteor.h" />
+    <ClInclude Include="MeteorSpawner.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="Score.h" />
+    <ClInclude Include="GameOverMessage.h" />
+    <ClInclude Include="GameOverScene.h" />
+    <ClInclude Include="Background.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Engine">
@@ -53,5 +69,27 @@
     <Image Include="Resources\ship.png">
       <Filter>Resources</Filter>
     </Image>
+    <Image Include="Resources\laser.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\meteor.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\explosion-spritesheet.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Desktop\ScrollingBackground.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\boom.wav">
+      <Filter>Resources</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Courneuf-Regular.ttf">
+      <Filter>Resources</Filter>
+    </Font>
   </ItemGroup>
 </Project>
